@@ -17,6 +17,7 @@ public class Main {
             request.setName("Kamran");
             HelloResponse result = helloEndpoint.sayHello(request);
             System.out.println(result.getMessage());
+            System.out.println("Hej");
         } catch (ServiceException e) {
             e.printStackTrace();
         } catch (RemoteException e) {
